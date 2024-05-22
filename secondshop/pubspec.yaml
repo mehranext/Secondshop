@@ -14,10 +14,12 @@ dependencies:
     sdk: flutter
 
   # Utility packages
-  http: ^1.1.2
+  http: ^1.2.1
   intl: ^0.19.0
   logger: ^2.0.2+1
   url_launcher: ^6.2.3
+  flutter_native_splash: ^2.4.0
+  smooth_page_indicator: ^1.1.0
 
   # Icons
   iconsax: ^0.0.8
@@ -47,12 +49,12 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/
-    - assets/images/
+    - assets/images/on_boarding_images/
 
  #-----------Local fonts-------------
   fonts:
     - family:
-      fonts:
+    -  fonts:
 
 
 
